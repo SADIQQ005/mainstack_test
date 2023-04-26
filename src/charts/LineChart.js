@@ -11,7 +11,7 @@ import { Chart } from "react-chartjs-2";
 
 ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Filler);
 
-export default function LineChart({display}) {
+export default function LineChart() {
   const data = {
     labels: ["Red", "Red", "Red"],
     datasets: [

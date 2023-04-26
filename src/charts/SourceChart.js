@@ -1,4 +1,3 @@
-
 import { Chart as ChartJS, ArcElement } from "chart.js";
 import { Chart } from "react-chartjs-2";
 

@@ -21,7 +21,6 @@ export default function Body() {
         const data = await await fetch("https://fe-task-api.mainstack.io/");
         const res = await data.json();
         await setDisplay(res);
-        // console.log(res);
       } catch (error) {
         console.log(error);
       }
