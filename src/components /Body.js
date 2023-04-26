@@ -130,7 +130,7 @@ export default function Body() {
               <div className="mt-5 flex space-x-1 items-center">
                 <ul>
                   {display?.top_sources?.map((x, index) => (
-                    <li key={index} className="text-sm capitalize">
+                    <li key={index} className="text-xs capitalize">
                       {x.source} {x.percent}%
                     </li>
                   ))}
