@@ -6,7 +6,7 @@ import {
   PointElement,
   Filler
 } from "chart.js";
-import { Chart } from "react-chartjs-2";
+import { Line } from "react-chartjs-2";
 
 ChartJS.register(CategoryScale, LinearScale, LineElement, PointElement, Filler);
 
@@ -35,8 +35,7 @@ export default function LineChart() {
   };
   return (
     <div>
-      <Chart
-        type="line"
+      <Line
         options={options}
         data={data}
         height="30vh"

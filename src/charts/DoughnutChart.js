@@ -1,5 +1,5 @@
 import { Chart as ChartJS, ArcElement } from "chart.js";
-import { Chart } from "react-chartjs-2";
+import { Doughnut } from "react-chartjs-2";
 
 ChartJS.register(ArcElement);
 
@@ -25,8 +25,7 @@ export default function DoughnutChart({ display }) {
   };
   return (
     <div>
-      <Chart
-        type="doughnut"
+      <Doughnut
         options={options}
         data={data}
         width="160"
